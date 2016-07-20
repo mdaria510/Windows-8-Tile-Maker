@@ -1,6 +1,8 @@
 # Windows-8-Tile-Maker
 Produces beautiful start screen tiles and optimizes performance of application launch.
 
+## Primary code file is Tile Maker.au3
+
 Unfortunately, it is not possible to adapt this program for use in Windows 10, as Microsoft has completely changed the way tiles work and made it far more difficult to implement custom tiles. Technically it is just a GUI wrapper for the Oblytile utility, which has been discontinued. A beta version of the program that can retain the additional functionality is included as well, but it can only create basic tiles using the stock icon. YMMV. 
 
 ## Installation: 
