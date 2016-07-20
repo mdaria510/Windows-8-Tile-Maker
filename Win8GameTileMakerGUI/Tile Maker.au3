@@ -168,7 +168,7 @@ Global $aGameServices[10]
 Global $aGameFolders[10]
 
 	$aGameServicesANDFolders[0][0] = ""
-	$aGameServicesANDFolders = IniReadSection("Win8 Game Tile Maker.ini", "Folders")
+	$aGameServicesANDFolders = IniReadSection("Tile Maker.ini", "Folders")
 
 	If $aGameServicesANDFolders[0][0] = "" Then AddGameService()
 
